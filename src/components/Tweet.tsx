@@ -4,8 +4,7 @@ interface TweetProps{
 };
 
 
-export function Tweet({text,user}:TweetProps)
-{
+export function Tweet({text,user}:TweetProps){
   return(
     <div>
       <h1>{text}</h1>
